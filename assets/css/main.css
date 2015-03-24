@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    font-family:'Open Sans', sans-serif !important;
+}
+body{
+    background:#f8f8f8;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.wrapper{
+    background:#fff;
+    border:1px solid rgba(0,0,0,0.05);
+    border-radius:5px;
+    margin:10px;
+    padding: 20px;
+}
+.chart {
+    border:1px solid rgba(0,0,0,0.05);
+    padding:40px 20px;
+}
+.half {
+    float: left;
+    width:50%;
+}
+.row{
+    overflow: hidden;
+}
+svg > g > text[text-anchor=start]:first-child {
+    font-size:24px !important;
+    font-weight:300 !important;
+}
+h1,h2,h3,h4,h5,h6 { font-weight:300; }
+hr {
+    background:#f0f0f0;
+    border:none;
+    height:1px;
+}
+table {
+    border-collapse:collapse;
+    width:100%;
+}
+table thead {
+    background:#369;
+    color:#fff;
+}
+table th, table td {
+    padding:10px;
+}
+tbody td {
+    text-align:left;
+}
+tbody tr:nth-child(even){
+    background:#f0f0f0;
+}
